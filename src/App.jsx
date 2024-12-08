@@ -4,6 +4,9 @@ import { GoXCircleFill } from "react-icons/go";
 import { FiAlignJustify } from "react-icons/fi";
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
+import htmlAndCss from './assets/HTML & CSS.jpg';
+import javaScript from './assets/JavaScript.jpg';
+import reactAndTailwind from './assets/React & Tailwind.jpg';
 
 
 const Portfolio = () => {
@@ -12,17 +15,17 @@ const Portfolio = () => {
 
   const slideImages = [
     {
-      url: 'src/assets/HTML & CSS.jpg',
+      url: htmlAndCss,
       link: 'https://27-rattanakul-colmar.vercel.app/',
       name: 'HTML & CSS'
     },
     {
-      url: 'src/assets/JavaScript.jpg',
+      url: javaScript,
       link: 'https://27-rattanakul-js.vercel.app/',
       name: 'JavaScript'
     },
     {
-      url: 'src/assets/React & Tailwind.jpg',
+      url: reactAndTailwind,
       link: 'https://27-rattanakul-react.vercel.app/',
       name: 'React & Tailwind'
     },
