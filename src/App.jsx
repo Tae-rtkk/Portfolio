@@ -143,11 +143,11 @@ const Portfolio = () => {
       <section id="skills" className="p-8 bg-indigo-950">
         <h2 className="text-2xl font-semibold text-center mb-4 text-yellow-300">Skills</h2>
         <div className="flex flex-wrap justify-center gap-4">
-          <img src="src/assets/HTML5.png" alt="" className='h-[50px] w-[50px]' />
-          <img src="src/assets/CSS3.png" alt="" className='h-[50px] w-[50px]' />
-          <img src="src/assets/JavaScript.png" alt="" className='h-[50px] w-[50px]' />
-          <img src="src/assets/React.png" alt="" className='h-[50px] w-[50px]' />
-          <img src="src/assets/Tailwind CSS.png" alt="" className='h-[50px] w-[50px]' />
+          <img src="/assets/HTML5.png" alt="" className='h-[50px] w-[50px]' />
+          <img src="/assets/CSS3.png" alt="" className='h-[50px] w-[50px]' />
+          <img src="/assets/JavaScript.png" alt="" className='h-[50px] w-[50px]' />
+          <img src="/assets/React.png" alt="" className='h-[50px] w-[50px]' />
+          <img src="/assets/Tailwind CSS.png" alt="" className='h-[50px] w-[50px]' />
         </div>
       </section>
 
