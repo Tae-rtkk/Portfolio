@@ -7,6 +7,12 @@ import 'react-slideshow-image/dist/styles.css';
 import htmlAndCss from './assets/HTML & CSS.jpg';
 import javaScript from './assets/JavaScript.jpg';
 import reactAndTailwind from './assets/React & Tailwind.jpg';
+import iconhtml from './assets/HTML5.png'
+import iconcss from './assets/CSS3.png'
+import iconjs from './assets/JavaScript.png'
+import iconreact from './assets/React.png'
+import icontailwind from './assets/Tailwind CSS.png'
+
 
 
 const Portfolio = () => {
@@ -143,11 +149,11 @@ const Portfolio = () => {
       <section id="skills" className="p-8 bg-indigo-950">
         <h2 className="text-2xl font-semibold text-center mb-4 text-yellow-300">Skills</h2>
         <div className="flex flex-wrap justify-center gap-4">
-          <img src="/assets/HTML5.png" alt="" className='h-[50px] w-[50px]' />
-          <img src="/assets/CSS3.png" alt="" className='h-[50px] w-[50px]' />
-          <img src="/assets/JavaScript.png" alt="" className='h-[50px] w-[50px]' />
-          <img src="/assets/React.png" alt="" className='h-[50px] w-[50px]' />
-          <img src="/assets/Tailwind CSS.png" alt="" className='h-[50px] w-[50px]' />
+          <img src={iconhtml} alt="" className='h-[50px] w-[50px]' />
+          <img src={iconcss} alt="" className='h-[50px] w-[50px]' />
+          <img src={iconjs} alt="" className='h-[50px] w-[50px]' />
+          <img src={iconreact} alt="" className='h-[50px] w-[50px]' />
+          <img src={icontailwind} alt="" className='h-[50px] w-[50px]' />
         </div>
       </section>
 
