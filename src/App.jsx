@@ -184,8 +184,9 @@ const Portfolio = () => {
       {/* Contact Section */}
       <section id="contact" className="p-8 bg-gray-900 text-white text-center">
         <h2 className="text-2xl font-semibold mb-4">Contact Me</h2>
-        <p>Email: <a href="mailto:taerattanakun@gmail.com" className="underline">taerattanakun@gmail.com</a></p>
-        <p>Github: <a href="https://github.com/Tae-rtkk" className="underline">Tae-rtkk</a></p>
+        <p>Email: <a href="mailto:taerattanakun@gmail.com" className="underline" target='blank'>taerattanakun@gmail.com</a></p>
+        <p>Linkin: <a href="https://www.linkedin.com/in/rattanakul-butpairoj-78b08033a/" className="underline" target='blank'>Rattanakul Butpairoj</a></p>
+        <p>Github: <a href="https://github.com/Tae-rtkk" className="underline" target='blank'>Tae-rtkk</a></p>
       </section>
     </div>
   );
