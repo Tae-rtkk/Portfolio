@@ -12,6 +12,10 @@ import iconcss from './assets/CSS3.png'
 import iconjs from './assets/JavaScript.png'
 import iconreact from './assets/React.png'
 import icontailwind from './assets/Tailwind CSS.png'
+import Burger from './assets/Burger.png'
+import GuessingNumber from './assets/GuessingNumber.png'
+import GEMINI from './assets/GEMINI.png'
+import CRUDFIREBASE from './assets/CRUD-FIREBASE.png'
 
 
 
@@ -34,6 +38,26 @@ const Portfolio = () => {
       url: reactAndTailwind,
       link: 'https://27-rattanakul-react.vercel.app/',
       name: 'React & Tailwind'
+    },
+    {
+      url: Burger,
+      link: 'https://burger-ebon-eta.vercel.app/',
+      name: 'Burger'
+    },
+    {
+      url: GuessingNumber,
+      link: 'https://guessing-number-seven.vercel.app/',
+      name: 'GuessingNumber'
+    },
+    {
+      url: GEMINI,
+      link: 'https://gemini-clone-8pb5.vercel.app/',
+      name: 'GEMINI'
+    },
+    {
+      url: CRUDFIREBASE,
+      link: 'https://crud-firebase-bajm.vercel.app/',
+      name: 'CRUDFIREBASE'
     },
   ];
 
