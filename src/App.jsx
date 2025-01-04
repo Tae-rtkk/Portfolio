@@ -16,6 +16,7 @@ import Burger from './assets/Burger.png'
 import GuessingNumber from './assets/GuessingNumber.png'
 import GEMINI from './assets/GEMINI.png'
 import CRUDFIREBASE from './assets/CRUD-FIREBASE.png'
+import Handyhaven from './assets/Handyhaven.jpg'
 
 
 
@@ -58,6 +59,11 @@ const Portfolio = () => {
       url: CRUDFIREBASE,
       link: 'https://crud-firebase-bajm.vercel.app/',
       name: 'CRUDFIREBASE'
+    },
+    {
+      url: Handyhaven,
+      link: 'https://jsd-8-raptor-trooper-website.vercel.app/',
+      name: 'Handyhaven'
     },
   ];
 
